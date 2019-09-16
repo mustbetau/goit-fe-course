@@ -133,11 +133,12 @@ img {
     background-color: #8c8c8c;
 }
 
-.product-item:hover p {
-    background-color: rgb(0, 0, 255);
+.product-item:hover .product-price {
+    background-color: #7fd9c7;
 }
-.product-item:hover .product-name {
-    background-color: rgb(0, 0, 255);
+
+.product-item:hover .product-text {
+    background-color: #1abc9c;
 }
 .product-item:not(:nth-child(4n)) {
     margin-right: 30px;;
