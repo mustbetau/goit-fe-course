@@ -204,7 +204,11 @@ img {
     margin-right: 30px;;
 }
 
-.news-item a {
+.bt {
+    margin: 0 auto;
+}
+
+.news-item button {
     display: block;
     width: 160px;
     height: 52px;
@@ -212,6 +216,7 @@ img {
     text-decoration: none;
     margin: 0;
     padding-top: 12px;
+    padding-bottom: 12px;
     text-align: center;
     font-size: 16px;
     line-height: 26px;
@@ -221,8 +226,8 @@ img {
     color: rgb(0, 0, 0);;
     cursor: pointer;  
 }
-.news-item a:hover, 
-.news-item a:focus {
+.news-item button:hover, 
+.news-item button:focus {
     color:#ffffff;
     background-color: rgb(78, 198, 171);
     border: none;
