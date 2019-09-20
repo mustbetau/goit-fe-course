@@ -31,7 +31,7 @@ body {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 .nav__logo img {
     width: 86px;
@@ -103,7 +103,7 @@ img {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    padding-bottom: 22px;
+    margin-bottom: 22px;
     color: #333333;
 }
 .svcs__title {
@@ -199,7 +199,7 @@ img {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    padding-bottom: 22px;
+    margin-bottom: 22px;
     color: #333333;
 }
 .team__title {
@@ -227,18 +227,7 @@ img {
     font-family: 'Roboto';
     width: 950px;
     margin: 0 auto;
-    text-align: center;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #999999;
-}
-.title__text2 {
-    font-family: 'Roboto';
-    width: 950px;
-    padding-right: 250px;
-    padding-left: 250px;
-    margin: 0 auto;
+    margin-bottom: 95px;
     text-align: center;
     font-weight: 400;
     font-size: 15px;
@@ -250,8 +239,6 @@ img {
     justify-content: space-between;
     list-style: none;
     margin: 0;
-    padding-top: 95px;
-    height: 100%;
 }
 .team__item {
     position: relative;
@@ -422,10 +409,10 @@ input[type="text"] {
     color:#f38181;
     cursor: default;
 }
-.hlink a:active,
-.hlink a:hover,
-.hlink a:visited,
-.hlink a:link {
+.hlink:active,
+.hlink:hover,
+.hlink:visited,
+.hlink:link {
     color: #f38181;
     text-decoration: none;
 }
