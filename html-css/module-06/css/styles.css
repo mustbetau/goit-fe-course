@@ -422,10 +422,10 @@ input[type="text"] {
     color:#f38181;
     cursor: default;
 }
-a:active,
-a:hover,
-a:visited,
-a:link {
+.hlink a:active,
+.hlink a:hover,
+.hlink a:visited,
+.hlink a:link {
     color: #f38181;
     text-decoration: none;
 }
