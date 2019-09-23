@@ -1,0 +1,234 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Open Sans', 'Roboto', 'Arial', sans-serif;
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 17px;
+}
+h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+h1::first-letter {
+    color: #1abc9c;
+}   
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.main-logo a {
+    font-size: 30px;
+    line-height: 32px;
+    color: #555252;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.top-menu {
+    margin-bottom: 76px;
+}
+.top-navigate {
+    padding: 38px 0;
+
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.main-menu-nav {
+    width: 476px;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu-nav a {
+    font-size: 14px;
+    display: block;
+    font-weight: 700;
+    color: #0f0101;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 17px;
+
+}
+.main-menu-nav li {
+    float: left;
+    padding-top: 8px;
+}
+.main-menu-nav li:not(:last-child) {
+    margin-right: 32px;
+}
+.main-menu-nav a:hover, 
+.main-menu-nav a:focus{
+    color: #1abc9c;
+}
+.features {
+    margin-bottom: 78px;
+}
+.features-title {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    line-height: 58px;
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 92px;
+}
+.features-title::after {
+    display: block;
+    content:'';
+    width: 164px;
+    height: 8px;
+    background-color:rgb(26, 188, 156);
+    margin: auto;
+    margin-top: 36px;
+}
+.product-list {
+    list-style: none;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+}
+.product-item {
+    float: left;
+    width: 255px;
+}
+
+.product-item p {
+    display: inline-block;
+    height: 40px;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.product-text {
+    width: 200px;
+    background-color: #323232;
+}
+
+.product-price {
+    width: 55px;
+    background-color: #8c8c8c;
+}
+
+.product-item:hover .product-price {
+    background-color: #7fd9c7;
+}
+
+.product-item:hover .product-text {
+    background-color: #1abc9c;
+}
+.product-item:not(:nth-child(4n)) {
+    margin-right: 30px;;
+}
+.product-item {
+    margin-bottom: 30px;
+}
+.latest-news {
+    padding-bottom: 82px;
+}
+.news-title {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    line-height: 58px;
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    text-align: center;
+        margin-bottom: 80px;
+}
+.news-title::after {
+    display: block;
+    content:'';
+    width: 164px;
+    height: 8px;
+    background-color:rgb(26, 188, 156);
+    margin: auto;
+    margin-top: 36px;
+}
+.news-list {
+    margin-bottom: 120px;
+    padding: 0px;
+}
+.news-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.news-img {
+    margin-bottom: 18px;
+}
+.ubernews {
+    margin: 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: #555252;
+    font-weight: 600;
+}
+.ubernews::after {
+    display: block;
+    content:'';
+    width: 136px;
+    height: 3px;
+    background-color:rgb(26, 188, 156);
+    margin-top: 18px;
+    margin-bottom: 34px;
+}
+.news-item {
+    width: 350px;
+    float: left;
+}
+.news-item:not(:last-child) {
+    margin-right: 30px;;
+}
+
+.bt {
+    margin: 0 auto;
+}
+
+.news-item button {
+    display: block;
+    width: 160px;
+    height: 52px;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    color: rgb(0, 0, 0);;
+    cursor: pointer;  
+}
+.news-item button:hover, 
+.news-item button:focus {
+    color:#ffffff;
+    background-color: rgb(78, 198, 171);
+    border: none;
+}
